@@ -1,111 +1,225 @@
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>hacking for feminism</title>
-    <meta name="description" content="combining engineering and feminist activism">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=cf3b0ee45c">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
-
-    <link rel="canonical" href="http://hack4fem.org/">
-    <meta name="referrer" content="origin">
-    <link rel="next" href="http://hack4fem.org/page/2/">
-    
-    <meta property="og:site_name" content="hacking for feminism">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="hacking for feminism">
-    <meta property="og:description" content="combining engineering and feminist activism">
-    <meta property="og:url" content="http://hack4fem.org/">
-    <meta property="og:image" content="http://hack4fem.org/content/images/2015/08/background-uncompressed.png">
-    
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="hacking for feminism">
-    <meta name="twitter:description" content="combining engineering and feminist activism">
-    <meta name="twitter:url" content="http://hack4fem.org/">
-    <meta name="twitter:image:src" content="http://hack4fem.org/content/images/2015/08/background-uncompressed.png">
-    
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "hacking for feminism",
-    "url": "http://hack4fem.org/",
-    "image": "http://hack4fem.org/content/images/2015/08/background-uncompressed.png",
-    "description": "combining engineering and feminist activism"
+<!doctype html><html><head><title>Hacking Human Trafficking</title><meta name="description" content="<img class=&quot;logo&quot; src='https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg'/>
+ <link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg&quot;>"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>#imml a.portal:not(.inline) {
+  display: block;
 }
-    </script>
 
-    <meta name="generator" content="Ghost 0.7">
-    <link rel="alternate" type="application/rss+xml" title="hacking for feminism" href="http://hack4fem.org/rss/">
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</head><body><div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+#imml .pages > .page:target ~ .page:last-child,
+#imml .pages > .page {
+  display: none;
+}
 
+/* :last-child works, but for some reason .page:last-child will not */
+#imml .pages > :last-child,
+#imml .pages > .page:target {
+  display: block;
+}
 
+#imml .pages > :last-child .breadcrumbs {
+  visibility: hidden;
+}
+</style><style>:root {
+  --imml-text-light: #333333;
+  --imml-text-dark: #eeeeee;
+  --imml-background-light: #ffffff;
+  --imml-background-dark: #121212;
+  --imml-accent-light: dodgerblue;
+  --imml-accent-dark: dodgerblue;
+}
 
-    <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="index.html#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
-            <li class="nav-what-is-hack4fem" role="presentation"><a href="http://hack4fem.org/what-is-hack4fem.html">What is hack4fem</a></li>
-            <li class="nav-schedule" role="presentation"><a href="http://hack4fem.org/schedule.html">Schedule</a></li>
-            <li class="nav-get-involved" role="presentation"><a href="http://hack4fem.org/get-involved.html">Get Involved</a></li>
-            <li class="nav-projects" role="presentation"><a href="http://hack4fem.org/projects.html">Projects</a></li>
-    </ul>
-    <a class="subscribe-button icon-feed" href="http://hack4fem.org/rss/">Subscribe</a>
-</div>
-<span class="nav-cover"></span>
+:root {
+  --imml-background: var(--imml-background-light);
+  --imml-text: var(--imml-text-light);
+  --imml-text-inverse: var(--imml-text-dark);
+  --imml-accent: var(--imml-accent-light);
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --imml-background: var(--imml-background-dark);
+    --imml-text: var(--imml-text-dark);
+    --imml-text-inverse: var(--imml-text-light);
+    --imml-accent: var(--imml-accent-dark);
+  }
+}
 
-    <div class="site-wrapper">
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
 
-        
-<header class="main-header " style="background-image: url(content/images/2015/08/background-uncompressed.png)">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="http://hack4fem.org"><img src="content/images/2015/08/hack4femlogo.svg" alt="hacking for feminism"></a>
-            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">hacking for feminism</h1>
-            <h2 class="page-description">combining engineering and feminist activism</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="index.html#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+body {
+  font-family: sans-serif;
+  min-height: 100%;
+  color: var(--imml-text);
+  background: var(--imml-background);
+}
 
-<main id="content" class="content" role="main">
+.pages {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-</main>
+.pages .page {
+  padding-top: 2em;
+  padding-bottom: 10em;
+}
 
+.page .breadcrumbs {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: small;
+}
 
-        <footer class="site-footer clearfix">
-            <section class="copyright"><a href="http://hack4fem.org">hacking for feminism</a> © 2015</section>
-            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-        </footer>
+p {
+  line-height: 22px;
+}
 
-    </div>
+a {
+  width: fit-content;
+  color: var(--imml-accent);
+  border-bottom: 1px dotted var(--imml-accent);
+  text-decoration: none;
+}
 
-    <!-- You can safely delete this line if your theme does not require jQuery -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+hr {
+  border-style: solid;
+  border-bottom: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=cf3b0ee45c"></script>
-    <script type="text/javascript" src="assets/js/index.js?v=cf3b0ee45c"></script>
+blockquote {
+  border-left: 0.5em solid var(--imml-text-inverse);
+  padding: 0 1em;
+}
 
+blockquote p {
+  font-style: italic;
+}
 
-</body>
+code {
+  background: var(--imml-text-inverse);
+  border-radius: 0.25em;
+  padding: 0em 0.25em;
+  font-family: monospace;
+  display: inline-block;
+}
+pre code {
+  padding: 0.5em 0.5em;
+}
+pre {
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  margin-top: 0.25em;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  text-align: left;
+  font-weight: bold;
+}
+thead tr {
+  border-bottom: 1px solid;
+}
+tr {
+  border-bottom: 1px dashed;
+}
+td,
+th {
+  padding: 4px;
+}
+</style><style class="imml">
+img.site-logo {
+    height: 16px;
+    image-rendering: pixelated;
+}
+@media (prefers-color-scheme: dark) {
+    img.site-logo {
+        filter: invert();
+    }
+}
+[data-theme="light"] img.site-logo {
+    filter: none;
+}
+[data-theme="dark"] img.site-logo {
+    filter: invert();
+}
+a.external:after {
+    content: " ↗";
+}
+</style></head><body><div id="imml"><div class="pages"><div class="page" id="home"><div class="breadcrumbs"><span>home</span></div><h1>Hacking Human Trafficking</h1>
+<h3>🗓️ May 8th, 2023 @ 5-9pm</h3>
+<h3>🏛️ MIT Room 56-169 @ Cambridge, MA, USA</h3>
+<hr>
+<p>Join us for an evening of brainstorming about how technology can help in the fight against human trafficking and get hands-on experience working with data about the illegal massage industry. (<em>Note that data will be explicit!</em>)</p>
+<p>RSVP for free pizza 🍕🍕🍕</p>
+<hr>
+<h3>🖋️ RSVP: <a class="external" target="_blank" href="https://forms.gle/8arzuhu2PcUBcyS6A">https://forms.gle/8arzuhu2PcUBcyS6A</a></h3>
+<h3>✉️ Contact: <a class="external" target="_blank" href="mailto:nrobot@mit.edu">nrobot@mit.edu</a></h3>
+<hr>
+<h2>Schedule</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5 - 5:20 PM</td>
+<td>Keynote Speaker</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>5:20 - 5:40</td>
+<td>Introduction to Problem Area / Ethics / Dataset</td>
+<td>Kaggle dataset &amp; notebooks</td>
+</tr>
+<tr>
+<td>5:40 - 6</td>
+<td>Form teams of 2-3</td>
+<td>(There'll be a data science tutorial if helpful)</td>
+</tr>
+<tr>
+<td>6 - 7</td>
+<td>Hack  !</td>
+<td>💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾</td>
+</tr>
+<tr>
+<td>7 - 7:30</td>
+<td>Intermission: Pizza Hang-out</td>
+<td>🍕 Free pizza time! (Also, pitch your research if you'd like)</td>
+</tr>
+<tr>
+<td>7: 30 - 8:30</td>
+<td>Hack !</td>
+<td>💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾</td>
+</tr>
+<tr>
+<td>8:30 - 8:50</td>
+<td>Presentations</td>
+<td>👀</td>
+</tr>
+<tr>
+<td>8:50 - 9</td>
+<td>Judges &amp; Audience Vote</td>
+<td>🏆</td>
+</tr>
+<tr>
+<td>9 - 9:30</td>
+<td>(Optional) Celebratory desserts</td>
+<td>🍰</td>
+</tr>
+</tbody></table>
+</div></div></div></body></html>

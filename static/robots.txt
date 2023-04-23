@@ -1,3 +1,0 @@
-User-agent: *
-Sitemap: http://hack4fem.github.io/sitemap.xml
-Disallow: /ghost/

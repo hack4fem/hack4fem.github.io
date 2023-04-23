@@ -1,0 +1,72 @@
+$title: imml
+$description: generate static site from a single plain text file
+
+[home]
+    # Hacking Human Trafficking
+
+    ### 🗓️ May 8th, 2023 @ 5-9pm  
+    ### 🏛️ MIT Room 56-169 @ Cambridge, MA, USA
+
+    ------------------------
+
+    Join us for an evening of brainstorming about how technology can help in the fight against human trafficking and get hands-on experience working with data about the illegal massage industry. (*Note that data will be explicit!*)
+
+    RSVP for free pizza 🍕🍕🍕
+
+    ------------------------
+
+    ### 🖋️ RSVP: https://forms.gle/8arzuhu2PcUBcyS6A
+ 
+    ### ✉️ Contact: nrobot@mit.edu
+
+    ------------------------
+    
+    ## Schedule
+
+    | Time                  | Event                  | Description             
+    | --------------------- | ---------------------- | --------------------    
+    | 5 - 5:20 PM | Keynote Speaker | TBD                                      
+    | 5:20 - 5:40 | Introduction to Problem Area / Ethics / Dataset | Kaggle dataset & notebooks
+    | 5:40 - 6 | Form teams of 2-3  | (There'll be a data science tutorial if helpful)
+    | 6 - 7 | Hack  !  |    💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾
+    | 7 - 7:30 | Intermission: Pizza Hang-out | 🍕 Free pizza time! (Also, pitch your research if you'd like)
+    | 7: 30 - 8:30 | Hack ! |  💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾                                                
+    | 8:30 - 8:50 | Presentations |   👀                                 
+    | 8:50 - 9 | Judges & Audience Vote |  🏆                                    
+    | 9 - 9:30 | (Optional) Celebratory desserts |  🍰      
+
+\
+
+$style:
+    <style>
+    img.site-logo {
+        height: 16px;
+        image-rendering: pixelated;
+    }
+    @media (prefers-color-scheme: dark) {
+        img.site-logo { 
+            filter: invert(); 
+        }
+    }
+    [data-theme="light"] img.site-logo { 
+        filter: none; 
+    }
+    [data-theme="dark"] img.site-logo { 
+        filter: invert(); 
+    }
+    a.external:after {
+        content: " ↗";
+    }
+    </style>
+
+
+
+$title: Hacking Human Trafficking
+
+$description: Join us! 56-169 on Monday, May 8th, 2023 from 5 to 9pm
+
+    // Hacking for Feminism (Hack4Fem)  
+    <img class="logo" src='https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg'/> 
+     <link rel="icon" type="image/x-icon" href="https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg">
+
+     
