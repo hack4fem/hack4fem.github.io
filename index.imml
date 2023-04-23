@@ -1,0 +1,96 @@
+$title: imml
+$description: generate static site from a single plain text file
+
+[home]
+    # Hacking Human Trafficking
+
+    ### 🗓️ May 8th, 2023 @ 5-9pm  
+    ### 🏛️ MIT Room 56-169 @ Cambridge, MA, USA
+
+    ------------------------
+
+    Join us for an evening of brainstorming about how technology can help in the fight against human trafficking. We'll focus on the illicit massage industry and explore questions such as 
+
+    **Trigger Warning:** This data in this hackathon can contain sexually explicit and vulgar text.
+    
+    <br/>
+    RSVP for free pizza 🍕🍕🍕
+
+    ------------------------
+
+    ### 🖋️ RSVP: https://forms.gle/8arzuhu2PcUBcyS6A
+ 
+    ### ✉️ Contact: nrobot at mitdot edu
+    
+    ------------------------
+    
+    <br/>
+
+    ## Schedule
+
+    | Time                  | Event                  | Description             
+    | --------------------- | ---------------------- | --------------------    
+    | 5 - 5:20 PM | Keynote Speaker | TBD                                      
+    | 5:20 - 5:40 | Introduction to Problem Area / Ethics / Dataset | Kaggle dataset & notebooks
+    | 5:40 - 6 | Form teams of 2-3  | (There'll be a data science tutorial if helpful)
+    | 6 - 7 | Hack  !  |    💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾
+    | 7 - 7:30 | Intermission: Pizza Hang-out | 🍕 Free pizza time! (Also, pitch your research if you'd like)
+    | 7: 30 - 8:30 | Hack ! |  💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾                                                
+    | 8:30 - 8:50 | Presentations |   👀                                 
+    | 8:50 - 9 | Judges & Audience Vote |  🏆                                    
+    | 9 - 9:30 | (Optional) Celebratory desserts |  🍰      
+
+    <br/><br/><br/>
+
+    ------------------------
+
+    # Code of Conduct
+    ------------------------
+
+    We generally will follow the ethics guidelines at https://hackdfw.com/policies/ethics, with the exception of "be decent" due to the topic of our hackathon.
+
+    > **General Guidelines**
+    > **Be a nice person**
+    > It is expected that any person asked to stop harassing, inappropriate, or otherwise unwanted behavior will comply with the request immediately, without question or delay. Otherwise, the person may be disqualified and asked to leave the premises immediately.
+
+    In particular, due to prior concerns, we quote here for emphasis:
+    
+    > **Security**
+    We are here for your safety. Please contact staff for any issues.
+    > 
+    > **Reporting Procedures**
+    > If at any point you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately to staff at the event. All reporters will remain anonymous. If you are uncomfortable reporting your situation in person, you may directly contact the following Staff members using the contact details listed below:
+    >   - Nao Ouyang
+    ( phone number provided at event )
+
+
+$style:
+    <style>
+    img.site-logo {
+        height: 16px;
+        image-rendering: pixelated;
+    }
+    @media (prefers-color-scheme: dark) {
+        img.site-logo { 
+            filter: invert(); 
+        }
+    }
+    [data-theme="light"] img.site-logo { 
+        filter: none; 
+    }
+    [data-theme="dark"] img.site-logo { 
+        filter: invert(); 
+    }
+    a.external:after {
+        content: " ↗";
+    }
+    </style>
+
+
+
+$title: Hacking Human Trafficking
+
+$description: Join us! 56-169 on Monday, May 8th, 2023 from 5 to 9pm
+
+    // Hacking for Feminism (Hack4Fem)  
+    <img class="site-logo" src='https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg'/> 
