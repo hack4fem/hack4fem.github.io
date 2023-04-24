@@ -1,6 +1,9 @@
 $title: Hacking Human Trafficking
 $description: Join us! 56-169 on Monday, May 8th, 2023 from 5 to 9pm
 
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
 [home]
     # Hacking Human Trafficking
 
@@ -96,7 +99,7 @@ $description: Join us! 56-169 on Monday, May 8th, 2023 from 5 to 9pm
     **I already do research in the area of AI + counter-trafficking, should
     I come?**
 
-    Yes! Separately from this hackathon-workshop, I hope to build a community of researchers working on this topic.
+    Yes! Separately from this hackathon-workshop, we hope to build a community of researchers working on this topic.
 
     **I can't attend but will this be held again in the future?** 
 
@@ -129,4 +132,4 @@ $style:
 
 
     // Hacking for Feminism (Hack4Fem)  
-    <img class="site-logo" src='https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg'/> 
+    // <img class="site-logo" src='https://hack4fem.github.io/content/images/2015/08/hack4femlogo.svg'/> 
