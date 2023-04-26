@@ -37,10 +37,10 @@ $description: Join us! 56-169 on Monday, May 8th, 2023 from 5 to 9pm
 
     # Schedule
 
-    | Time                  | Event                  | Description             
+    | Time                  | Event                  | Notes             
     | --------------------- | ---------------------- | --------------------    
-    | 5 - 5:20 PM | Keynote Speaker | TBD                                      
-    | 5:20 - 5:40 | Introduction to Problem Area / Ethics / Dataset | Kaggle dataset & notebooks
+    | 5 - 5:20 PM | Keynote Speaker | **Julie Braun** <br>(Policy Initiatives Advisor at the Wisconsin Department of Justice)                                      
+    | 5:20 - 5:40 | Introduction to Problem Area / Ethics / Dataset | The dataset is on Kaggle
     | 5:40 - 6 | Form teams of 2-3  | (There'll be a data science workshop/tutorial if helpful)
     | 6 - 7 | Hack  !  |    💻 💪💪🏻💪🏼💪🏽💪🏾💪🏿🦾
     | 7 - 7:30 | Intermission: Pizza Hang-out | 🍕 Free pizza time! (Also, pitch your research if you'd like)
